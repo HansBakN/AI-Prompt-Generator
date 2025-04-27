@@ -1,0 +1,2 @@
+This pull request adds some basic functionality to a Blazor project in which users are able to track their bowling stats. 
+It is one of the first pull requests that adds functionality to the UI, so it is very important that it follows the Blazor best practices, as it will set a precedent for the next features that will be implemented
