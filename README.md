@@ -1,3 +1,5 @@
+# THIS README IS NOT UP TO DATE. I WILL UPDATE IT LATER. 
+
 # git-ai-review
 
 Generate an AI-friendly Git review summary between two refs.
