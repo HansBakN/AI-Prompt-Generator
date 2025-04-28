@@ -36,9 +36,11 @@ def must_be_repo(p):
 
 def run_cmd(cmd, cwd=None):
     try:
-        return subprocess.check_output(cmd, stderr=subprocess.STDOUT, text=True, cwd=cwd)
+        output = subprocess.check_output(cmd, stderr=subprocess.STDOUT, cwd=cwd)
+        return output.decode('utf-8', errors='replace')
     except subprocess.CalledProcessError:
         return None
+
 
 
 def chunk_diff(diff_text, max_chars=5000):
